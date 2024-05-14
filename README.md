@@ -22,4 +22,4 @@ If you would like to contribute to this project, please follow these steps:
 4. Submit a pull request.
 
 ## License
-Include the license information for your project here.
+This project is licensed under the terms of the MIT license. This means you are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, under the condition that you include the original copyright notice and disclaimers in any copies of the software or substantial portions of it. For more details, see the [LICENSE](LICENSE) file.
