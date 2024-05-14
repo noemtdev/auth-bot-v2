@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>nomnom</title>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+		<style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+            body {
+                background-color: #181A1B;
+                color: white;
+                text-align: center;
+                height: 100vh;
+                margin: 0;
+            }
+            p {
+                font-size: 1.5em;
+                margin-bottom: 1%;
+            }
+            .avatar {
+                margin-top: 1%;
+                height: 27vh;
+                border-radius: 50%;
+            }
+            img {
+                width: auto;
+                max-height: 100%;
+            }
+            .typewritter-wrapper {
+                position: relative;
+                margin: auto;
+            }
+		</style>
+	</head>
+	<body style="font-family: Montserrat;">
+        <div class="typewritter-wrapper">
+            <img class="avatar" id="fadein" src="https://bio.noemt.dev/static/img/fedoracat.png">
+            <h1 style="font-family:'Montserrat'">Logs</h1>
+            <h2 style="font-family:'Montserrat'">made by nom</h2>
+            <p>
+                {% for log in text %}
+                    {{ log }}<br>
+                {% endfor %}
+            </p>
+        </div>
+	</body>
+</html>

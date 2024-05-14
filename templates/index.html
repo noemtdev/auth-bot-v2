@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>nomnom</title>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+		<style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+            body {
+                margin: 0;
+                height: 100%;
+                overflow: hidden;
+                background-color: #181A1B;
+                color: white;
+                display: flex;
+                justify-content: center;
+                text-align: center;}
+            .icons {
+                position: fixed;
+                left: 50%;
+                bottom: 20px;
+                transform: translate(-50%, -50%);
+                margin: 0 auto;}
+            .icons a {
+                text-decoration: none;}
+            .icons i {
+                padding: 0 3vw;
+                font-size: 4vh;}
+            .avatar {
+                padding: 100px 200px 100px 200px;
+                height: 27vh;
+                border-radius: 50%;}
+            img {
+                width: auto;
+                max-height: 100%;
+            }
+            .typewritter-wrapper {
+                position: fixed;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<img class="avatar" id="fadein" src="https://bio.noemt.dev/static/img/fedoracat.png">
+			<div class="typewritter-wrapper">
+				<h1 style="font-family:'Montserrat'">
+					{{ text }}
+				</h1>
+                <h2 style="font-family:'Montserrat'">
+                    made by nom
+                </h2>
+			</div>
+			<div class="icons">
+				<a href="https://github.com/noemtdev/" rel="noopener noreferrer" target="_blank">
+					<i class="fa-brands fa-github fa-3x" style="color: white"></i>
+				</a>
+			</div>
+		</div>
+	</body>
+</html>
