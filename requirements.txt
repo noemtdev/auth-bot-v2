@@ -2,4 +2,3 @@ py-cord
 quart
 aiohttp
 pymongo
-logging
